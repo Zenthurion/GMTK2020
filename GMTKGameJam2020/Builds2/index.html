@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GMTKGameJam2020</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #FFFFFF"></canvas>
+    <script src="Build/Builds2.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/Builds2.data",
+        frameworkUrl: "Build/Builds2.framework.js",
+        codeUrl: "Build/Builds2.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "TwinWizards",
+        productName: "GMTKGameJam2020",
+        productVersion: "0.1",
+      });
+    </script>
+  </body>
+</html>

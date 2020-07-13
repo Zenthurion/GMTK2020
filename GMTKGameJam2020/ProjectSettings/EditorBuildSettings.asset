@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TW/Game.unity
-    guid: 14b5fe85d9f1e7d4dafc3fafae286eca
+    path: Assets/TW/Scenes/SetupScene.unity
+    guid: 7e5826984f3c5744ca1c60419fbf9207
+  - enabled: 1
+    path: Assets/TW/Scenes/LVL 1 - Intro.unity
+    guid: bef86730db69e064b85f52f8a502b4b3
+  - enabled: 1
+    path: Assets/TW/Scenes/LVL 1.unity
+    guid: ae65be4c2067a934e9c045c47b7cc54a
+  - enabled: 1
+    path: Assets/TW/Scenes/LVL 2.unity
+    guid: fc1a0141e373ede489fa0085a93576f8
+  - enabled: 1
+    path: Assets/TW/Scenes/LVL 3.unity
+    guid: 2d8b7f9cb5b5d024fbcc31611b3df64e
   m_configObjects: {}
